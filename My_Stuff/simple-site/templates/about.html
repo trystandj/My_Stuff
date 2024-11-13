@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in Vermont</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Weather in Vermont (Burlington)</h1>
+    </header>
+    <main>
+        {{if .Name}}
+            <h2>Current Weather in {{.Name}}</h2>
+            <p>Temperature: {{.Main.Temp}}°C</p>
+            <p>Humidity: {{.Main.Humidity}}%</p>
+            <p>Condition: {{index .Weather 0 "description"}}</p>
+        {{else}}
+            <p>Unable to fetch weather information.</p>
+        {{end}}
+    </main>
+    <footer>
+        <p>&copy; 2024 Simple Golang Site</p>
+    </footer>
+</body>
+</html>
+
+<!-- test -->
