@@ -7,9 +7,11 @@ import (
 	"strings"
 )
 
-// FilterFilesLineByLine filters files by searching for a term line by line (memory efficient for large files).
-func FilterFilesLineByLine(files []string, search string) []string {
+func FilterFilesLineByLine(files []string, searchString string) []string {
 	var filteredFiles []string
+
+	// Split the search string into individual search words (tokens)
+	searchWords := strings.Fields(strings.ToLower(searchString)) // Convert to lowercase for case-insensitive search
 
 	for _, file := range files {
 		// Open the file for reading
@@ -19,23 +21,34 @@ func FilterFilesLineByLine(files []string, search string) []string {
 			continue
 		}
 
-		// It's best to close the file right after opening it using a defer statement
-		// but it's important to close it before returning from the loop.
-		// This avoids leaving files open unnecessarily.
+		// Defer closing the file
 		defer func(f *os.File) {
 			if err := f.Close(); err != nil {
 				fmt.Printf("Error closing file %s: %v\n", file, err)
 			}
 		}(f)
 
+		// Use a flag to determine if a match was found in the current file
+		fileMatched := false
+
 		// Scan the file line by line
 		scanner := bufio.NewScanner(f)
 		for scanner.Scan() {
-			if strings.Contains(strings.ToLower(scanner.Text()), strings.ToLower(search)) {
-				fmt.Println("Found search term in:", file)
-				filteredFiles = append(filteredFiles, file)
+			line := strings.ToLower(scanner.Text()) // Convert line to lowercase for case-insensitive search
 
-				break // Stop searching after the first match
+			// Check if any search word is in the current line
+			for _, word := range searchWords {
+				if strings.Contains(line, word) {
+					fmt.Println(word, "Found search term in:", file)
+					filteredFiles = append(filteredFiles, file)
+					fileMatched = true
+					break // Stop searching this file after the first match
+				}
+			}
+
+			// Exit early if a match is found
+			if fileMatched {
+				break
 			}
 		}
 
