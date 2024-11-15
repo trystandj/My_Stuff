@@ -24,7 +24,7 @@ func main() {
 	// folderSearch := "C:/Program Files (x86)/DocLogic"
 	fileEnd := ".ini"
 	fileName := "rdi"
-	removeName := "copy"
+	removeName := "copy old 2"
 	searchContent := "prodoc 2020doc statements greenbar mysql"
 
 	//search.go brings back a file list with the specified file end
