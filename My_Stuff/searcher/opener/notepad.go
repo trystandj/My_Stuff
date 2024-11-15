@@ -7,7 +7,7 @@ import (
 )
 
 func OpenNotepad(files []string) {
-	fmt.Println("Opening files in Notepad...")
+	fmt.Println("\nOpening files in Notepad...")
 
 	for _, file := range files {
 		// Check if the file exists
