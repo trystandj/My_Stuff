@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "719f4b2b2361f906",
+        "id": "78d25136f38d4dea",
         "type": "tabs",
         "children": [
           {
-            "id": "61b10a0e6fa76388",
+            "id": "90db31b8169bb78e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Work Notes/Contacts.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Contacts"
             }
           }
         ]
@@ -154,13 +158,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94a3190250566256",
+  "active": "90db31b8169bb78e",
   "lastOpenFiles": [
+    "Work Notes/Contacts.md",
     "My Notes/Notes.md",
     "My Notes",
     "School Stuff",
     "Work Notes/EDS.md",
-    "Work Notes/Contacts.md",
     "Work Notes",
     "Welcome.md"
   ]
