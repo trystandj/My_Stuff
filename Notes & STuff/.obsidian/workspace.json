@@ -13,15 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work Notes/Contacts.md",
+                "file": "My Notes/Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contacts"
+              "title": "Notes"
+            }
+          },
+          {
+            "id": "b445c9d079d07e6f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,13 +171,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90db31b8169bb78e",
+  "active": "b445c9d079d07e6f",
   "lastOpenFiles": [
     "Work Notes/Contacts.md",
+    "Work Notes/EDS.md",
     "My Notes/Notes.md",
     "My Notes",
     "School Stuff",
-    "Work Notes/EDS.md",
     "Work Notes",
     "Welcome.md"
   ]
