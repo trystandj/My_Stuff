@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- testing -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator with History</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.7.0/math.min.js"></script>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <h2>Advanced Calculator</h2>
+        <input type="text" id="equation" placeholder="Enter your equation (e.g., sin(45) + sqrt(16))" />
+        <button id="calculateButton" onclick="calculate()">Calculate</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <div class="history">
+        <h3>History</h3>
+        <div id="history-list"></div>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+
+</html>
