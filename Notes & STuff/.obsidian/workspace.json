@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78d25136f38d4dea",
+        "id": "ae3d76b595aae41f",
         "type": "tabs",
         "children": [
           {
-            "id": "90db31b8169bb78e",
+            "id": "03a60aaf3881ce66",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -189,6 +189,13 @@
   },
   "active": "98df51ad9c43d776",
   "lastOpenFiles": [
+<<<<<<< HEAD
+=======
+    "School/Pro. Writ.md",
+    "Church/High Council Notes.md",
+    "Church",
+    "Work Notes/Contacts.md",
+>>>>>>> e27b01143a1c39b22889e3f3e5989034a646498e
     "Work Notes/EDS.md",
     "My Notes/workout.md",
     "Work Notes/Contacts.md",
