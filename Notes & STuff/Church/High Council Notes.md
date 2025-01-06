@@ -1,4 +1,55 @@
 
+#  19/12/24
+
+## President Shelton
+
+### Check the handbook before anything!!!
+
+##### Extending a Calling
+- Should be a meaningful spiritual experience for a member
+- not in a casual manner
+- Sit down with them, pray with them. Talk with them 
+- Understand if there circumstances will allow him or her to serve. 
+- If needed you can give people time to think about it
+- Pray about it and help them understand that it comes from the lord
+- Figure out what the calling is so you can explain it and help answer any questions they may have
+- The Lord is calling you to be, this was received by revelation and confirmed by multiple people 
+- Can invite their spouses                                                                                            
+###### Releasing members from callings
+- Meet with them before
+- May invite them to share what they learned
+- help make it a spiritual moment 
+
+
+### Brother Snyder returned Missionary
+- Came to love the Savior, and it changed him
+- The church is real, mission was a foundation to him
+- Scripture study was a big thing that helped him know that it is true and by testifying 
+- Book of Mormon is true and an amazing book 
+- He LIVES!  
+
+
+### Revelation
+
+- Everyday we should seek to follow the promptings we receive, we should be open and seek to find those promptings
+- Good inspiration is based upon good information - Pres Russel m Nelson 
+- We can pray to God to ask for promptings for guidance
+- Then we should seek to understand and discern the spirit 
+
+#### Pres Worthington
+- We need to live close to the spirit
+- Daily Repentance with sincerity! 
+- So we can live closer to the spirit and that we can become a greater tool
+- Take time to recognize the moments the lord has extended his hand in our days
+- Write down promptings, thoughts, feelings! Write down
+- Revelations through Gratitude 
+
+
+# TO DO
+- Mosiah Chapter 26 Study the chapter and think about it
+- Think about how it ties into the Prophets talk about revelation 
+- Don't be afraid to help out people "simply"
+- 
 # 12/05/24
 
 ## Braydon 

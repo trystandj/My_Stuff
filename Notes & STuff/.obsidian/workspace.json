@@ -22,15 +22,17 @@
             }
           },
           {
-            "id": "b445c9d079d07e6f",
+            "id": "c3999f13e1ece148",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.7.7"
+                "file": "Church/High Council Notes.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "High Council Notes"
             }
           }
         ],
@@ -171,14 +173,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b445c9d079d07e6f",
+  "active": "c3999f13e1ece148",
   "lastOpenFiles": [
-    "School/Pro. Writ.md",
+    "Church/Instit..md",
     "Church/High Council Notes.md",
+    "Pasted image 20241222185614.png",
+    "Pasted image 20241222185523.png",
+    "Pasted image 20241222185502.png",
+    "Pasted image 20241222185334.png",
+    "Pasted image 20241222185223.png",
+    "Pasted image 20241222185210.png",
+    "Pasted image 20241222184714.png",
+    "Pasted image 20241222184607.png",
+    "Pasted image 20241222184534.png",
+    "Pasted image 20241222184418.png",
+    "My Notes/Notes.md",
+    "School/Pro. Writ.md",
     "Church",
     "Work Notes/Contacts.md",
     "Work Notes/EDS.md",
-    "My Notes/Notes.md",
     "My Notes",
     "School Stuff",
     "Work Notes",
