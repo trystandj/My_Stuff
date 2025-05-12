@@ -66,3 +66,38 @@ Now that you understand how to write using these tools, it is also important tha
 ### The Workings of Rhetorical Analysis
 
 The aim of rhetorical analysis is not to find agreement with or praise for the writer. You are looking for the effectiveness (or lack thereof) of the writing by identifying the writer’s tools and what they accomplish.
+
+
+
+
+### Revising Stage 1: Seeing the Big Picture
+
+When you first begin your revision process, you should focus on the big picture or issues at the essay level that might need to be addressed. The following questions will guide you:
+
+- Do you have a clear thesis? Do you know what idea or perspective you want your reader to understand upon reading your essay?
+- Is your essay well organized?
+- Is each paragraph a building block in your essay: does each explain or support your thesis?
+- Does it need a different shape? Do parts need to be moved?
+- Do you fully explain and illustrate the main ideas of your paper?
+- Does your introduction grab the reader’s interest?
+- Does your conclusion leave the reader understanding your point of view?
+- Are you saying in your essay what you want to say?
+- What is the strength of your paper? What is its weakness?
+
+### Revising Stage 2: Mid-View
+
+The second stage of the revision process requires that you look at your content closely and at the paragraph level. It’s now time to examine each paragraph, on its own, to see where you might need to revise. The following questions will guide you through the mid-view revision stage:
+
+- Does each paragraph contain solid, specific information, vivid descriptions, or examples that illustrate the point you are making in the paragraph?
+- Are there other facts, quotations, examples, or descriptions to add that can more clearly illustrate or provide evidence for the points you are making?
+- Are there sentences, words, descriptions, or information that you can delete because they don’t add to the points you are making or may confuse the reader?
+- Are the paragraphs in the right order?
+- Are your paragraphs overly long? Does each paragraph explore one main idea?
+- Do you use clear transitions so the reader can follow your thinking?
+- Are any paragraphs or parts of paragraphs redundant and do they need to be deleted?
+-   
+    
+
+### Revising Stage 3: Editing Up Close
+
+Once you have completed your revision and feel confident in your content, you’ll want to begin the editing stage of your revision and editing process, which we will elaborate on later.
