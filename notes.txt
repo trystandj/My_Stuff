@@ -1,0 +1,123 @@
+The function object provides methods for functions, in javascript every function is actually a function object
+Functions created with the function constructor do not create closures to their creation context.
+They always are created in the global scope. when running them they will only be able to access
+their own local variables and gloabal ones, not the ones from the scope in which the functionconstructor was created.
+
+var x = 10
+
+function createFunction1() {
+    const x =20
+    return new function("return x") this x refers to global x
+}
+
+function creatfunction2 () {
+    const x = 20
+    function f() {
+        return x this refers to the local x above
+    }
+
+    return f will return 20 
+}
+
+
+Function constructor
+const sayHello = new function('name', 'return "hello, " + name')
+Created at runtime using the function object
+not hoisted, must be defined before use
+paramters and funciton body are passed as strings
+slower, more prone to security risk
+typically used for eval()
+
+const greet = new function('return "hello!"');
+console.log(greet())
+
+functions that contain function constructors inside will refer to the global scope, not the creation context
+See above as an example
+
+Function Declaration 
+function greet( ){
+    console.log(Hello!)
+}
+greet()
+
+Can be hoisted, you can call the function before its declared
+more readable
+best suited for general function definitions 
+
+
+An iife immediately inoked function expression is an idiom in js where a function runs as soon as it is defined
+it is also known as a self executing anonymous function.
+
+standard
+(function () {
+
+})();
+
+arrow function
+(() => {
+
+})();
+
+// async IIFE
+(async () => {
+  // statements…
+})();
+
+arguments may be provided, though iifes without arguments are more common 
+used to avoid polluting the global namespace by creating a new scopecreating a new async contect
+computing values with complex logic, such as using multiple statements as a single expression 
+
+Your task is to sort a given string. Each word in the string will contain a single number. This number is the position the word should have in the result.
+
+Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).
+
+If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.
+"is2 Thi1s T4est 3a"  -->  "Thi1s is2 3a T4est"
+"4of Fo1r pe6ople g3ood th5e the2"  -->  "Fo1r the2 g3ood 4of th5e pe6ople"
+""  -->  ""
+function order(words){
+  if (!words) return "";
+  
+  return words
+  .split(" ")
+  .sort((a, b) => {
+    return a.match(/\d/) - b.match(/\d/);
+  })
+  .join(" ")
+}
+
+let numbers = [10, 5, 40, 25];
+numbers.sort((a, b) => a - b);
+console.log(numbers); // [5, 10, 25, 40]
+
+numbers.sort((a, b) => b - a);
+console.log(numbers); // [40, 25, 10, 5]
+
+let fruits = ["banana", "apple", "cherry"];
+fruits.sort();
+console.log(fruits); // ["apple", "banana", "cherry"]
+
+fruits.sort((a, b) => a.length - b.length);
+console.log(fruits); // ["apple", "banana", "cherry"]
+
+
+
+
+
+
+Return the number (count) of vowels in the given string.
+
+We will consider a, e, i, o, u as vowels for this Kata (but not y).
+
+The input string will only consist of lower case letters and/or spaces.
+
+function getCount(str) {
+  let vowels = str.match(/[aeiou]/g);  
+  return vowels ? vowels.length : 0; 
+}
+
+or 
+
+function getCount(str) {
+  return (str.match(/[aeiou]/g) || []).length;
+}
