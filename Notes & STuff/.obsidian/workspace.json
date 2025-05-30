@@ -1,19 +1,21 @@
 {
   "main": {
-    "id": "b24dfbc8dc85a5f7",
+    "id": "3e8a3997e9e24721",
     "type": "split",
     "children": [
       {
+        "id": "a24ceacb09173061",
         "id": "dbc77ad6fc73ec6a",
         "type": "tabs",
         "children": [
           {
+            "id": "ff09798e0aa00a2c",
             "id": "ceb52ef882dc52a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Work Notes/IDV 2 Tracker.md",
+                "file": "WEBDEV/Terminal.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,16 +24,27 @@
             }
           },
           {
+<<<<<<< HEAD
+            "id": "c3999f13e1ece148",
+=======
             "id": "bbc8718b464e7fde",
+>>>>>>> 32eb551db9fa621c296018eb94e8b87ab2c6e3e5
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
+                "file": "Church/High Council Notes.md",
+=======
                 "file": "Work Notes/Effective Emails.md",
+>>>>>>> 32eb551db9fa621c296018eb94e8b87ab2c6e3e5
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
+              "title": "High Council Notes"
+=======
               "title": "Effective Emails"
             }
           },
@@ -47,6 +60,7 @@
               },
               "icon": "lucide-file",
               "title": "Troubleshooting guide or ideas"
+>>>>>>> 32eb551db9fa621c296018eb94e8b87ab2c6e3e5
             }
           }
         ]
@@ -55,15 +69,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "8ed75166ba0c413b",
+    "id": "797b7067fb1af8f5",
     "type": "split",
     "children": [
       {
-        "id": "a3b031b074ab32d7",
+        "id": "bbd453edb1a86a31",
         "type": "tabs",
         "children": [
           {
-            "id": "9e379d0edb97181b",
+            "id": "6fe06281c614a811",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -76,7 +90,7 @@
             }
           },
           {
-            "id": "14022279961af2b7",
+            "id": "689e391541457b1e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -93,7 +107,7 @@
             }
           },
           {
-            "id": "427918cf9ba68a86",
+            "id": "1c2a851e50284f38",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -110,20 +124,20 @@
     "width": 300
   },
   "right": {
-    "id": "761f8a55a774ec4b",
+    "id": "4e12b7eecda6a27e",
     "type": "split",
     "children": [
       {
-        "id": "dfa438b8c4629395",
+        "id": "f88fed84cff9aa38",
         "type": "tabs",
         "children": [
           {
-            "id": "027f8818dfc067d4",
+            "id": "d0c5ce3666d96a55",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Church/High Council Notes.md",
+                "file": "projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,25 +147,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for High Council Notes"
+              "title": "Backlinks for projects"
             }
           },
           {
-            "id": "98b1673ea4737aec",
+            "id": "2aabf3489f4a8ca2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Church/High Council Notes.md",
+                "file": "projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from High Council Notes"
+              "title": "Outgoing links from projects"
             }
           },
           {
-            "id": "5582c7d947603beb",
+            "id": "24f5af2ac27cb5f6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -164,15 +178,15 @@
             }
           },
           {
-            "id": "11e429bf7f3f451b",
+            "id": "67a89484ace9a1d6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Church/High Council Notes.md"
+                "file": "projects.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of High Council Notes"
+              "title": "Outline of projects"
             }
           }
         ]
@@ -192,20 +206,35 @@
       "command-palette:Open command palette": false
     }
   },
+<<<<<<< HEAD
+  "active": "c3999f13e1ece148",
+  "lastOpenFiles": [
+    "Church/Instit..md",
+    "Church/High Council Notes.md",
+    "Pasted image 20241222185614.png",
+    "Pasted image 20241222185523.png",
+    "Pasted image 20241222185502.png",
+    "Pasted image 20241222185334.png",
+    "Pasted image 20241222185223.png",
+    "Pasted image 20241222185210.png",
+    "Pasted image 20241222184714.png",
+    "Pasted image 20241222184607.png",
+    "Pasted image 20241222184534.png",
+    "Pasted image 20241222184418.png",
+    "My Notes/Notes.md",
+    "School/Pro. Writ.md",
+    "Church",
+    "Work Notes/Contacts.md",
+    "Work Notes/EDS.md",
+    "My Notes",
+    "School Stuff",
+    "Work Notes",
+    "Welcome.md"
+=======
   "active": "bbc8718b464e7fde",
   "lastOpenFiles": [
-    "Pasted image 20250214082831.png",
-    "Pasted image 20250207094115.png",
-    "federated.md",
-    "Pasted image 20250129142652.png",
-    "Pasted image 20250129142527.png",
-    "Pasted image 20250129142451.png",
-    "Work Notes/IDV 2 Tracker.md",
-    "Pasted image 20250120110027.png",
-    "Pasted image 20250120091202.png",
-    "Work Notes/Effective Emails.md",
     "WEBDEV/Terminal.md",
-    "School/Pro. Writ.md",
+    "Work Notes/Effective Emails.md",
     "Work Notes/Troubleshooting guide or ideas.md",
     "My Notes/Notes.md",
     "WEBDEV",
